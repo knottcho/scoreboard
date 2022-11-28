@@ -1,0 +1,54 @@
+@font-face {
+    font-family: timerFont;
+    src: url(timerFont.ttf);
+}
+
+.scoreboard {
+    background-color: rgba(27, 36, 74, 1);
+    color: rgba(238, 238, 238, 1);
+    width: 575px;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    width: 155px;
+    margin: 50px;
+}
+
+.team {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 21px;
+    display: flex;
+    justify-content: center;
+}
+
+.score {
+    font-family: timerFont;
+    font-size: 90px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 0;
+    color: rgba(249, 79, 109, 1);
+    background-color: rgba(8, 0, 1, 1);
+    width: 155px;
+    height: 80px;
+}
+
+.incrementScore {
+    display: flex;
+    justify-content: center;
+
+}
+
+.incrementScore btn {
+    color: rgba(154, 171, 216, 1);
+    border: 2px solid;
+    border-radius: 5px;
+    font-family: timerFont;
+    font-size: 18px; 
+    padding: 10px;
+    margin: 26px 4.5px
+}
